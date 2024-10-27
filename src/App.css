@@ -1,0 +1,80 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Container styles */
+#container {
+  max-width: 400px;
+  margin: 150px auto;
+  padding: 20px;
+  background-color: #f7f5f5;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Heading styles */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Calculator styles */
+#calculator {
+  margin-top: 20px;
+}
+
+/* Form styles */
+form {
+  text-align: center;
+}
+
+/* Input and select styles */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Button styles */
+button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+/* Total tip styles */
+.totalTip {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.totalTip sup {
+  font-size: 16px;
+}
+
+.totalTip .tip {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.totalTip small {
+  font-size: 14px;
+}
+
+p {
+  text-align: center;
+}
